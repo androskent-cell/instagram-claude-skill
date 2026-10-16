@@ -1,0 +1,15 @@
+{
+  "name": "socialmaker",
+  "description": "Instagram skill for creators and small businesses, in Spanish and English, connected to SocialMaker.",
+  "owner": {
+    "name": "Andros Blandon"
+  },
+  "plugins": [
+    {
+      "name": "instagram-socialmaker",
+      "source": ".",
+      "description": "Reels, captions, carousels, DMs, profile and weekly plan for Instagram (ES/EN). With SocialMaker connected, Claude creates the automations, link in bio, carousels, catalogs and bookings for you.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "instagram-socialmaker",
+  "version": "1.0.0",
+  "description": "Instagram for creators and small businesses (ES/EN): Reels, hooks, captions, carousels, stories, DMs, profile audit and weekly plan. With the SocialMaker connector, Claude builds the automations, link in bio, carousels, catalogs and bookings in your account.",
+  "author": {
+    "name": "Andros Blandon",
+    "url": "https://socialmaker.ai"
+  },
+  "homepage": "https://github.com/androskent-cell/instagram-claude-skill",
+  "repository": "https://github.com/androskent-cell/instagram-claude-skill",
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "captions", "carousels", "automation", "dm", "link-in-bio", "spanish", "espanol", "socialmaker"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "socialmaker": {
+      "type": "http",
+      "url": "https://socialmaker.ai/mcp"
+    }
+  }
+}
