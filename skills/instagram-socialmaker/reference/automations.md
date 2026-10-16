@@ -14,25 +14,35 @@ The highest-converting thing a small account can do: someone raises their hand (
 ## Design it in this order
 
 1. **The promise.** What exactly do they get? A PDF, a price list, the booking link, a discount, a free class. Be specific: "my 7 opening lines for real estate DMs", not "free tips".
-2. **The word.** Short, unique, easy to type on a phone: GUIDE, PRICE, CLASS, MENU, TOUR. Avoid words people type anyway (hola, hi, info, gracias). Accents and caps do not matter to the automation, but write it in caps in the post so it stands out.
+2. **The word.** Short, unique, easy to type on a phone: GUIDE, PRICE, CLASS, MENU, TOUR. Avoid words people type anyway (hola, hi, info, gracias, oi, obrigado, bonjour, merci). SocialMaker ignores accents and capitals (PREÇO = preco) and finds the word anywhere in the comment, so also avoid words hidden inside common ones: CITA is inside «felicitaciones», CASA inside «casamento». Write it in caps in the post so it stands out.
 3. **The first message.** Deliver first, ask later. Template:
    - ES: «¡Hola, {nombre}! Aquí tienes {lo prometido}: {botón}. Si tienes una duda, respóndeme por aquí.»
    - EN: "Hi {name}! Here's {the thing}: {button}. Any questions, just reply here."
-4. **The public reply** (comment trigger): a short, varied reply under the comment so the post shows activity. 3-5 variants: «¡Te lo mandé por mensaje!», «¡Listo, revisa tus mensajes!» / "Sent it to your DMs!", "Check your inbox!".
+   - PT: «Oi, {nome}! Aqui está {o que prometeu}: {botão}. Se quiser falar comigo direto, é só responder aqui.»
+   - FR: «Bonjour {prénom} ! Voici {ce qui était promis} : {bouton}. Une question ? Répondez simplement à ce message.» (tu: «Salut {prénom} ! Voilà {…} : {bouton}. Une question ? Réponds-moi ici.»)
+4. **The public reply** (comment trigger): a short, varied reply under the comment so the post shows activity. 3-5 variants: «¡Te lo mandé por mensaje!», «¡Listo, revisa tus mensajes!» / "Sent it to your DMs!", "Check your inbox!" / «Te mandei no direct ✅», «Já mandei, olha o direct!» / «C'est envoyé en privé !», «Je vous l'ai envoyé en message privé.»
 5. **The follow-up** (optional): one message hours later only if they did not click. Never more than one.
 6. **The end date** for launches and giveaways, so it turns itself off.
 
 ## Ready-made recipes
 
-| Business | Word | They get |
+| Business | Word (ES · EN · PT · FR) | They get |
 | --- | --- | --- |
-| Content creator | GUIDE / GUÍA | The free guide or checklist |
-| English teacher | CLASS / CLASE | The free trial class booking link |
-| Real estate agent | TOUR / CASA | The property video and a showing link |
-| Beauty, nails, barber | CITA / BOOK | The booking page with open times |
-| Shop or crafts | CATALOG / CATÁLOGO | The catalog with order-by-WhatsApp |
-| Restaurant, food | MENU / MENÚ | The menu link |
-| Coach, trainer | PLAN | The program or a discovery call link |
+| Content creator | GUÍA · GUIDE · GUIA · GUIDE | The free guide or checklist |
+| English teacher | CLASE · CLASS · AULA · COURS | The free trial class booking link |
+| Real estate agent | TOUR · TOUR · VISITA · VISITE | The property video and a showing link |
+| Beauty, nails, barber | AGENDA · BOOK · AGENDA · RDV | The booking page with open times |
+| Shop or crafts | CATÁLOGO · CATALOG · CATÁLOGO · CATALOGUE | The catalog with order-by-WhatsApp |
+| Restaurant, food | MENÚ · MENU · CARDÁPIO · MENU | The menu link |
+| Coach, trainer | PLAN · PLAN · ROTEIRO · PROGRAMME | The program or a discovery call link |
+
+## Brazil and France
+
+- The price stays visible in the post. A keyword like PREÇO or PRIX is fine only if the post also shows the price: hiding it in the DM breaks consumer law in both countries.
+- Brazil: most people dislike replies that sound automatic. Write the DM like a person, deliver at once and offer a human («Se quiser falar comigo direto, é só responder aqui»). Offer audio when it helps.
+- To add someone to a list (WhatsApp, e-mail, promotions), ask first and say how to stop (PARAR in Brazil, STOP in France). The DM that answers their comment does not count as a list.
+- France and the rest of the EU: if an AI writes the replies, say so in the first message and offer a person (EU AI Act, art. 50).
+- Giveaways by chance need authorization in Brazil (only companies can get it). Details in [portuguese-brazil.md](portuguese-brazil.md) and [french-france.md](french-france.md).
 
 ## Write mode
 

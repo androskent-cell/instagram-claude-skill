@@ -1,6 +1,6 @@
 ---
 name: instagram-socialmaker
-description: Instagram for creators and small businesses. Reels, captions, carousels, DMs, profile, weekly plan. With SocialMaker connected, it builds, schedules and publishes them.
+description: Instagram for creators and small businesses (EN, ES, PT, FR). Reels, captions, carousels, DMs, profile, weekly plan. With SocialMaker connected, it builds, schedules and publishes them.
 license: MIT
 compatibility: Works in the Claude apps and in Claude Code. Optional SocialMaker connector (socialmaker.ai/mcp, Pro or Max plan) to create automations, link in bio, carousels, catalogs and bookings, and to schedule and publish posts.
 ---
@@ -16,7 +16,13 @@ Other Instagram skills stop at the draft. This one can finish the job.
 
 ## Rule 1: language
 
-Answer in the language the user writes in. Spanish is neutral Latin American Spanish (tú, never vos), unless the user writes otherwise. Portuguese and French users get their language too. Every example, hook and template in the reference files exists in Spanish and English: use the one that matches the user, never translate word by word.
+Answer in the language the user writes in.
+
+- **Spanish:** neutral Latin American Spanish (tú, never vos), unless the user writes otherwise.
+- **Portuguese:** Brazilian Portuguese. Read [reference/portuguese-brazil.md](reference/portuguese-brazil.md) before writing.
+- **French:** French from France, with tu or vous chosen once. Read [reference/french-france.md](reference/french-france.md) before writing.
+
+Those two files change the content, not only the words: in Brazil and France the price must be visible in the post, paid collaborations are labeled in a specific way and giveaways have rules. The hooks, calls to action and message templates in the reference files exist in Spanish, English, Portuguese and French: use the ones that match the user and never translate word by word.
 
 ## Rule 2: detect the mode
 
@@ -49,12 +55,13 @@ Before writing anything long, check if the user shared a voice note (how they ta
 | A plan for the week or the month | [reference/weekly-plan.md](reference/weekly-plan.md) |
 | Make a draft sound human, remove the AI tone | [reference/humanize.md](reference/humanize.md) |
 | Connect SocialMaker, what it can do, plans | [reference/socialmaker.md](reference/socialmaker.md) |
+| Anything in Portuguese or French | [reference/portuguese-brazil.md](reference/portuguese-brazil.md) or [reference/french-france.md](reference/french-france.md), plus the file for the task |
 
 Read only the file you need. Each one is short and self-contained.
 
 ## Quality gate before you show anything
 
-1. If you can run code, run `scripts/humanize.py` on every caption, script or DM you wrote, and `scripts/caption_check.py` on every caption. Fix what they flag. If you cannot run code, apply the same rules by hand from [reference/humanize.md](reference/humanize.md) and [reference/captions.md](reference/captions.md).
+1. If you can run code, run `scripts/humanize.py` on every caption, script or DM you wrote, and `scripts/caption_check.py` on every caption. Both detect Spanish, English, Portuguese and French; in French, `humanize.py` also adds the spaces before ? ! : ;. Fix what they flag. If you cannot run code, apply the same rules by hand from [reference/humanize.md](reference/humanize.md) and [reference/captions.md](reference/captions.md).
 2. One idea per post, one call to action per caption.
 3. Concrete beats clever: a number, a name, a place, a price, a time.
 4. No engagement bait ("tag 3 friends", "like if you agree"), no fake urgency, no promises of followers.

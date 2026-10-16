@@ -23,9 +23,15 @@ Output the score, then the top 3 fixes with the rewritten text ready to paste.
 
 - ES: «Te ayudo a {resultado} sin {dolor}. {Prueba}. Reserva ↓»
 - EN: "I help {who} {result} without {pain}. {Proof}. Book below ↓"
+- PT: «Te ajudo a {resultado} sem {dor}. {Prova}. Agenda aqui ↓» (real estate adds «CRECI 123456-F»)
+- FR: «J'aide {qui} à {résultat} sans {douleur}. {Preuve}. Réservez ici ↓» (or tu, to match the account)
+
+The name field is searchable: «Ana · Manicure em Moema», «Léa | Ongles Lyon 7e».
 
 ## The link in bio page
 
 One page, in this order: the main action (book, buy, join), the free lead magnet, WhatsApp, the catalog or menu, proof (reviews, results), social links. Max 5-7 buttons; the first one is the money one.
+
+Brazil: a WhatsApp button («Chama no zap») is expected. France: prices reachable without asking, and a professional who sells needs «Mentions légales» (and CGV if they take orders) linked from the page.
 
 **Build mode:** `get_link_in_bio` to read the current page, then propose changes; on yes use `update_link_in_bio_profile`, `add_link_in_bio_button`, `update_link_in_bio_button` or the design tools. `get_link_in_bio_stats` shows which buttons get clicks (when the plan includes it): remove what nobody taps.

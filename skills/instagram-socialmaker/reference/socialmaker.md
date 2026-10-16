@@ -30,7 +30,7 @@ Use only the tools you actually have. Names can change; read each tool's descrip
 **Claude apps (web, desktop, mobile):**
 1. Customize → Connectors → Add → **Add custom connector**.
 2. Name: `SocialMaker`. URL: `https://socialmaker.ai/mcp`. Add.
-3. Click **Connect**, sign in to SocialMaker and choose what Claude may do in each area. To let Claude publish, set **Schedule and publish** to "View and edit" (it starts off on purpose).
+3. Click **Connect**, sign in to SocialMaker and choose what Claude may do in each area. To let Claude publish, set **Schedule and publish** to "View and edit" (it starts off on purpose). SocialMaker shows that screen in the user's language: «Programar y publicar» (Spanish), «Agendar e publicar» (Portuguese), «Programmer et publier» (French).
 4. In a chat, open **+ → Connectors** and turn SocialMaker on.
 
 **Claude Code:** installing this repo as a plugin adds the connector. The first time, run `/mcp` and sign in to SocialMaker in the browser. Or add it by hand: `claude mcp add --transport http socialmaker https://socialmaker.ai/mcp`.

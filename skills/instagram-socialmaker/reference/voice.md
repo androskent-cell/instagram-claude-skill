@@ -15,6 +15,8 @@ Greeting: {«¡Hola, hermosa!» / "Hey friend" / none}
 Uses: {3-5 words or expressions they say}
 Never: {words they hate, topics to avoid}
 Spanish: {tú / usted; country-specific words}
+Portuguese: {você / tu; city or region}
+French: {tu / vous, the same everywhere}
 Emojis: {none / 1-2 / many}
 Offer: {what they sell and the price range}
 ```

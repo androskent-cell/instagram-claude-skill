@@ -16,6 +16,10 @@ Help them define: services (clear names, length, price, what's included), buffer
 Policy template:
 - ES: «Puedes cambiar o cancelar tu cita hasta {24} horas antes desde el enlace de tu confirmación. Si no avisas, se pierde el anticipo.»
 - EN: "You can reschedule or cancel up to {24} hours before from your confirmation link. No-shows lose the deposit."
+- PT: «Você pode remarcar ou cancelar até {24} horas antes pelo link da confirmação. Se não avisar, o sinal não é devolvido.»
+- FR: «Vous pouvez modifier ou annuler votre rendez-vous jusqu'à {24} h avant, depuis le lien de confirmation. En cas d'absence, l'acompte est conservé.»
+
+In France, beauty clients are used to booking online with time slots: the booking page in the bio is what they expect. In Brazil, answer «valor?» with the price in the first reply.
 
 ## Build mode
 

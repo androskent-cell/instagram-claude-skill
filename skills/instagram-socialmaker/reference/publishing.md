@@ -14,7 +14,7 @@ With SocialMaker connected (and the "Schedule and publish" permission turned on)
 ## The flow
 
 1. **Content ready.** The design or the files, and the caption checked with [captions.md](captions.md) (and `scripts/caption_check.py`).
-2. **When.** Ask the day and time and the user's time zone if you don't know it. If they ask "when is best", suggest when their audience is online (their Instagram insights show it) and avoid inventing a universal "best time".
+2. **When.** Ask the day and time and the user's time zone if you don't know it. In the summary, write the time the way their country does: «martes 20 de octubre, 6:00 p. m.», "Tuesday, October 20, 6:00 p.m.", «terça-feira, 20 de outubro, às 18h», «mardi 20 octobre à 18 h». If they ask "when is best", suggest when their audience is online (their Instagram insights show it) and avoid inventing a universal "best time".
 3. **Show the summary and wait for a yes:**
    ```
    Account: @their_account (Instagram)

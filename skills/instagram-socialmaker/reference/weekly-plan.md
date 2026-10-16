@@ -17,6 +17,8 @@ What they sell, who buys, their goal this month (followers, leads, bookings, sal
 
 Mix of topics over a month: 40% useful tips, 30% proof (results, reviews, behind the scenes), 20% personal (who you are), 10% direct offers.
 
+Use the local calendar: Dia dos Namorados is June 12 in Brazil (not February 14), and France has la rentrée in September and quiet Augusts. The dates that sell are listed in [portuguese-brazil.md](portuguese-brazil.md) and [french-france.md](french-france.md).
+
 ## Output
 
 For each post: day, format, hook, the one idea, CTA (and whether it needs an automation), and a 1-line note for the visual. End with the 1-2 automations that would support the week's CTAs.

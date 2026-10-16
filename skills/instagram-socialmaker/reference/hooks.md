@@ -10,9 +10,9 @@ A hook is the first line spoken and the first text on screen. It has one job: ma
 4. **Fast:** under 3 seconds out loud (about 8-10 words).
 5. **Honest:** the video delivers exactly what the hook promises.
 
-Kill on sight: greetings ("hola chicos", "hey guys"), "in today's video", "stop scrolling", questions answered with "no", and anything the video does not deliver.
+Kill on sight: greetings ("hola chicos", "hey guys", «oi, gente», «bonjour à tous»), introducing yourself first («Oi, eu sou a Ana, da…»), "in today's video", "stop scrolling" («pare de rolar»), questions answered with "no", and anything the video does not deliver.
 
-## 16 formulas, in both languages
+## 16 formulas in Spanish and English
 
 | # | Formula | ES | EN |
 | --- | --- | --- | --- |
@@ -33,9 +33,59 @@ Kill on sight: greetings ("hola chicos", "hey guys"), "in today's video", "stop 
 | 15 | Question with a cost | «¿Cuántas citas pierdes por no contestar de noche?» | "How many bookings do you lose by not replying at night?" |
 | 16 | Show, then explain | (on screen: the result) «Así llegó este pedido. Te explico.» | (on screen: the result) "This order came in by itself. Here's how." |
 
+## Português (Brasil): 16 fórmulas
+
+Written the way Brazilians talk, not translated. Tone and rules: [portuguese-brazil.md](portuguese-brazil.md).
+
+| # | Formula | Example |
+| --- | --- | --- |
+| 1 | Para de [erro] se você quer [resultado] | Para de decorar lista de verbo se você quer falar inglês de verdade. |
+| 2 | O erro que [público] mais comete | O erro que brasileiro mais comete no inglês (e ninguém corrige). |
+| 3 | Sabe quando [situação]? | Sabe quando o esmalte descasca no segundo dia? Quase sempre é a preparação. |
+| 4 | Se você mora em [cidade] | Se você mora em Curitiba e paga mais de R$ 2.500 de aluguel, olha essa conta. |
+| 5 | Quanto custa de verdade | Quanto custa manter unha de gel por um mês (fiz a conta). |
+| 6 | POV | POV: o gringo te pergunta "how are you?" e você responde "I'm fine, thank you, and you?" |
+| 7 | Antes e depois | De "tá precisando" pra "tá pronto" em 40 minutos. |
+| 8 | Você fala/faz [X]? | Você fala "I have 30 years"? Então assiste até o final. |
+| 9 | Faz isso antes de [decisão] | Faz isso antes de assinar qualquer contrato de compra. |
+| 10 | Pergunta que eu mais recebo | Pergunta que eu mais recebo no direct: gel estraga a unha? |
+| 11 | Vem comigo | Vem comigo numa visita de 30 segundos. |
+| 12 | Responde rápido | Responde rápido: é "in the weekend" ou "on the weekend"? |
+| 13 | Opinião impopular | Opinião impopular: barba não combina com todo rosto. |
+| 14 | A ou B | Apartamento na planta ou pronto: qual vale mais a pena em 2026? |
+| 15 | Ninguém te avisa (only if it's true) | Ninguém te avisa que o condomínio pode custar mais que a parcela. |
+| 16 | Eu achava que… até | Eu achava que sotaque era problema. Até dar aula pra 300 alunos. |
+
+Sounds translated, avoid: «Aqui está o que ninguém te contou» (say «Ninguém fala disso, mas…»), «Deixe-me te contar» («Vou te contar»), «Isso mudou o jogo» (say what changed and by how much), «Não durma nisso» («Não deixa pra depois»), «No final do dia» («No fim das contas»), «Você não vai acreditar» (tell what happened in the first sentence).
+
+## Français : 16 formules
+
+Native French formulas, in tu or vous to match the account. Tone and rules: [french-france.md](french-france.md).
+
+| # | Formula | Example |
+| --- | --- | --- |
+| 1 | A real problem as a question | Ton semi-permanent se décolle au bout de cinq jours ? |
+| 2 | Ce qu'on ne vous dit pas | Ce qu'on ne vous dit pas avant d'acheter dans l'ancien. |
+| 3 | L'erreur que je vois | L'erreur que font presque tous mes élèves : dire « I am agree ». |
+| 4 | Le vrai prix | Pourquoi une pose gel coûte 55 € et pas 25 € ? |
+| 5 | Avant / après | Avant / après : 25 minutes de fauteuil. |
+| 6 | Coulisses with a time or a number | 6 h du matin, 300 verrines à préparer pour un mariage. |
+| 7 | Si tu… regarde ça | Si tu as un entretien en anglais la semaine prochaine, regarde ça. |
+| 8 | Idée reçue | Non, le gel n'abîme pas l'ongle. C'est la dépose qui l'abîme. |
+| 9 | A ou B | Gel ou semi-permanent : lequel choisir pour tes ongles ? |
+| 10 | Liste courte | 3 choses à vérifier avant de signer un compromis. |
+| 11 | On me demande tous les jours | On me demande tous les jours combien de temps tient une pose. Réponse honnête. |
+| 12 | POV | POV : vous visitez un T3 à 280 000 € à Nantes. |
+| 13 | 30 secondes pour… | 30 secondes pour ne plus confondre « actually » et « actuellement ». |
+| 14 | Le jour où… / Il y a deux ans… | Il y a deux ans, je vendais mes bougies sur un marché de Noël. Aujourd'hui… |
+| 15 | Ancrage local | Un barbier ouvert le lundi à Lille ? Oui, ça existe. |
+| 16 | Franc-parler | Honnêtement ? Je déconseille ce soin à la moitié de mes clientes. |
+
+Avoid: «Vous ne croirez jamais…», «Ce secret va changer votre vie», «Attends la fin, ça change tout», «Personne ne parle de ça» (only if the payoff is real), «Ceci est votre signe pour…» and «Laisse-moi te dire…» (calques of English), «hack» in every video (say «astuce»), invented figures («9 clientes sur 10…»).
+
 ## Adapt to the niche
 
-Swap the nouns, keep the shape. Real estate: "showings", "listings". English teacher: "trial class", "students from Brazil". Beauty: "appointments", "no-shows". Creators: "brand deals", "your guide".
+Swap the nouns, keep the shape. Real estate: "showings", "listings" (visita, apê; visite, estimation). English teacher: "trial class", "students from Brazil" (aula experimental; cours d'essai). Beauty: "appointments", "no-shows" (horário, encaixe; créneau, rendez-vous). Creators: "brand deals", "your guide".
 
 ## Output format
 

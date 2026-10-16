@@ -13,7 +13,7 @@
 | Hook | 0-3 s | The line from [hooks.md](hooks.md) + on-screen text |
 | Proof or setup | 3-8 s | Why listen to you: a result, a number, a mistake you made |
 | The value | 8-25 s | 2-4 short beats. Change the shot or the on-screen text every beat |
-| The CTA | last 3-5 s | One action. Ideally a keyword: «Comenta CITA y te mando el enlace» / "Comment BOOK and I'll send you the link" |
+| The CTA | last 3-5 s | One action. Ideally a keyword: «Comenta AGENDA y te mando el enlace» / "Comment BOOK and I'll send you the link" / «Comenta AGENDA que eu te mando o link» / «Commentez « RDV » et je vous envoie le lien» |
 
 Speaking pace: about 150-165 words per minute. A 30-second Reel is 70-80 words. If the script is longer, cut, do not speed up.
 

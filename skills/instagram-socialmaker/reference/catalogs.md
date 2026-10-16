@@ -5,11 +5,11 @@ When people keep asking "how much?" and "do you have it in black?", the answer i
 ## What a catalog that sells has
 
 - Real photos of the product (several if it has details).
-- The price, visible. No "DM for price".
+- The price, visible. No "DM for price": in Brazil and France the law requires it to be visible, and everywhere it sells more.
 - Options: size, color, scent, finish.
 - A short description with what people ask: measurements, material, delivery time.
 - Sold-out items marked, not deleted.
-- How to buy: how they pay, how it arrives.
+- How to buy: how they pay, how it arrives. Brazil: Pix, card in installments (show the total: «R$ 129,90 ou 3x de R$ 43,30»), frete or retirada. France: card, instant transfer or Wero, prices TTC («45 € TTC»), «acompte» if there is one.
 - An order button that opens WhatsApp with the products, options and total.
 
 ## Write mode
