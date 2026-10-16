@@ -29,4 +29,4 @@ SocialMaker can design it as an editable draft:
 1. `get_carousel_toolkit` to see fonts, styles and what the design tool supports.
 2. Ask for the user's brand colors and photos (or use their media library).
 3. `create_carousel` with the slides and the caption; `preview_carousel` to show it; adjust with `update_carousel`.
-4. Give the link to open it in SocialMaker, where they can edit and schedule it.
+4. Give the link to open it in SocialMaker. If they want it out, schedule or publish it from here: [publishing.md](publishing.md).

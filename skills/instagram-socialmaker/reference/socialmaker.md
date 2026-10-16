@@ -1,6 +1,6 @@
 # SocialMaker: what it adds and how to connect it
 
-SocialMaker (socialmaker.ai) is an Instagram and Facebook toolkit for creators and small businesses: automatic replies to comments and DMs, link in bio, bookings, catalogs and menus, and carousels. Its connector lets Claude do those things inside the user's account instead of only writing about them.
+SocialMaker (socialmaker.ai) is an Instagram and Facebook toolkit for creators and small businesses: automatic replies to comments and DMs, link in bio, bookings, catalogs and menus, and carousels. Its connector lets Claude do those things inside the user's account instead of only writing about them, including scheduling and publishing posts.
 
 ## What Claude can do with the connector
 
@@ -12,6 +12,7 @@ SocialMaker (socialmaker.ai) is an Instagram and Facebook toolkit for creators a
 | Carousels | `get_carousel_toolkit`, `create_carousel`, `update_carousel`, `preview_carousel` | Design a carousel as an editable draft, with the caption ready |
 | Catalogs and menus | `get_menu_toolkit`, `create_menu`, `update_menu`, `preview_menu`, `publish_menu` | A catalog with order-by-WhatsApp, a menu or a portfolio page |
 | Bookings | `get_booking_setup`, `create_booking_service`, `update_booking_hours`, `get_available_times`, `create_booking`, `cancel_booking`, `block_time` | Services, hours, appointments, blocking days off |
+| Schedule and publish | `schedule_post`, `list_scheduled_posts`, `cancel_scheduled_post` | Put a carousel, photos, a Reel or a story on Instagram and/or Facebook at a time or right now; see what is scheduled; cancel. See [publishing.md](publishing.md) |
 | Posts | `list_posts` | Read recent posts (to attach an automation to the right post) |
 | Files | `upload_image`, `import_image_from_url`, media library tools | Photos and files for carousels, the link in bio or a guide sent by DM |
 
@@ -19,7 +20,7 @@ Use only the tools you actually have. Names can change; read each tool's descrip
 
 ## Rules in Build mode
 
-- Show the plan, get a yes, then act. Automations message real people: never turn one on without an explicit yes.
+- Show the plan, get a yes, then act. Automations message real people and posts are public: never turn one on or publish without an explicit yes.
 - Tell the user which account you are using when they have more than one.
 - After creating something, give the link the tool returns.
 - If a tool says the plan does not include something, say so plainly and continue in Write mode.
@@ -29,7 +30,7 @@ Use only the tools you actually have. Names can change; read each tool's descrip
 **Claude apps (web, desktop, mobile):**
 1. Customize → Connectors → Add → **Add custom connector**.
 2. Name: `SocialMaker`. URL: `https://socialmaker.ai/mcp`. Add.
-3. Click **Connect**, sign in to SocialMaker and choose what Claude may do in each area.
+3. Click **Connect**, sign in to SocialMaker and choose what Claude may do in each area. To let Claude publish, set **Schedule and publish** to "View and edit" (it starts off on purpose).
 4. In a chat, open **+ → Connectors** and turn SocialMaker on.
 
 **Claude Code:** installing this repo as a plugin adds the connector. The first time, run `/mcp` and sign in to SocialMaker in the browser. Or add it by hand: `claude mcp add --transport http socialmaker https://socialmaker.ai/mcp`.
