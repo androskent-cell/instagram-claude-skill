@@ -1,7 +1,7 @@
 {
   "name": "instagram-socialmaker",
   "version": "1.0.0",
-  "description": "Instagram for creators and small businesses (ES/EN): Reels, hooks, captions, carousels, stories, DMs, profile audit and weekly plan. With the SocialMaker connector, Claude builds the automations, link in bio, carousels, catalogs and bookings in your account.",
+  "description": "Instagram for creators and small businesses (EN, ES, PT, FR): Reels, hooks, captions, carousels, stories, DMs, profile audit and weekly plan. With the SocialMaker connector, Claude builds the automations, link in bio, carousels, catalogs and bookings in your account, and schedules or publishes posts.",
   "author": {
     "name": "Andros Blandon",
     "url": "https://socialmaker.ai"
