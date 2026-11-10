@@ -1,6 +1,6 @@
-# Instagram skill for Claude (Español · English · Português · Français)
+# Instagram skill for Claude and ChatGPT (Español · English · Português · Français)
 
-**Other Instagram skills write. This one also builds.** Reels, hooks, captions, carousels, stories, DMs, profile audit and a weekly plan, in Spanish, English, Portuguese or French. Connect SocialMaker and Claude creates the real thing in your account: the "comment GUIDE and get it by DM" automation, your link in bio, the carousel, the catalog with orders by WhatsApp, your booking page, and it schedules or publishes the post.
+**Other Instagram skills write. This one also builds.** Reels, hooks, captions, carousels, stories, DMs, profile audit and a weekly plan, in Spanish, English, Portuguese or French. Connect SocialMaker and Claude or ChatGPT creates the real thing in your account: the "comment GUIDE and get it by DM" automation, your link in bio, the carousel, the catalog with orders by WhatsApp, your booking page, and it schedules or publishes the post.
 
 Free and open source (MIT). Made by [Andros Blandon](https://socialmaker.ai), founder of SocialMaker.
 
@@ -17,6 +17,7 @@ Free and open source (MIT). Made by [Andros Blandon](https://socialmaker.ai), fo
 | «Hazme el guion de un reel de 30 segundos para mi salón» | Te da 3 ganchos con puntaje, el guion por tiempos, el texto en pantalla y el llamado a la acción |
 | «Escribe el caption» | Lo escribe y lo revisa: lo que se ve antes de «… más», un solo llamado a la acción, 3 a 5 hashtags |
 | «Un carrusel sobre cómo reservar» | Portada, slides y caption. Con SocialMaker, te lo diseña y queda listo para editar |
+| «Un carrusel como los que están en tendencia» | Elige el estilo (titular gigante detrás de la persona, cartel, sticker, garabatos a mano) y escribe los prompts de las imágenes. **Con SocialMaker, lo arma con las imágenes que genera ChatGPT y los textos editables** |
 | «Revisa mi perfil» | Puntaje de 20, las 3 correcciones más importantes y la bio reescrita |
 | «Quiero que si comentan GUÍA les llegue mi PDF» | Escribe la automatización completa. **Con SocialMaker, la crea en tu cuenta** y te pregunta antes de encenderla |
 | «Arma mi catálogo con esta foto de precios» | Lo ordena por categorías. **Con SocialMaker, lo publica con pedido por WhatsApp** |
@@ -42,6 +43,14 @@ Incluye dos herramientas que de verdad corren (Python, sin instalar nada): `capt
 
 El conector funciona con los planes Pro y Max de [SocialMaker](https://socialmaker.ai). Claude nunca te pide la contraseña de Instagram y siempre te pregunta antes de crear, encender o publicar algo.
 
+### Instalar en ChatGPT (en la web, desde la computadora)
+
+1. Descarga [instagram-socialmaker.zip](https://github.com/androskent-cell/instagram-claude-skill/raw/main/dist/instagram-socialmaker.zip).
+2. En ChatGPT: **Plugins → Skills → Add → Upload from your computer** y elige el ZIP.
+3. Para conectar SocialMaker, abre **chatgpt.com/plugins** y entra a **+ → Add custom MCP server**. Nombre: `SocialMaker`. Server URL: `https://socialmaker.ai/mcp`. Elige **OAuth**, luego **Create as a plugin** e instálalo. Si no ves esa opción, activa antes el **Developer mode** en la configuración.
+4. Entra a tu cuenta de SocialMaker y elige qué puede hacer ChatGPT.
+5. Pídele: «Hazme un carrusel en tendencia sobre mi negocio, con imágenes sin letras». Cuando termine las imágenes, respóndele «Continúa» y lo arma en SocialMaker con los textos editables.
+
 ### Claude Code
 
 ```
@@ -60,6 +69,7 @@ El conector funciona con los planes Pro y Max de [SocialMaker](https://socialmak
 | "Write a 30-second Reel for my salon" | 3 scored hooks, a timed script, on-screen text and the call to action |
 | "Write the caption" | Writes it and checks it: what shows before "… more", one call to action, 3-5 hashtags |
 | "A carousel about booking" | Cover, slides and caption. With SocialMaker, it designs it as an editable draft |
+| "A carousel like the ones that are trending" | Picks the look (a giant headline behind the person, a sign, a sticker, hand doodles) and writes the image prompts. **With SocialMaker, it builds it with the pictures ChatGPT generates and the text still editable** |
 | "Audit my profile" | A score out of 20, the top 3 fixes and your bio rewritten |
 | "When someone comments GUIDE, send my PDF" | Writes the whole automation. **With SocialMaker, it creates it in your account** and asks before turning it on |
 | "Build my catalog from this price list photo" | Organizes it by category. **With SocialMaker, publishes it with orders by WhatsApp** |
@@ -85,6 +95,14 @@ Two tools that actually run (Python, nothing to install): `caption_check.py` sho
 
 The connector works with the SocialMaker Pro and Max plans. Claude never asks for your Instagram password and always asks before creating, turning on or publishing anything.
 
+### Install in ChatGPT (on the web, from a computer)
+
+1. Download [instagram-socialmaker.zip](https://github.com/androskent-cell/instagram-claude-skill/raw/main/dist/instagram-socialmaker.zip).
+2. In ChatGPT: **Plugins → Skills → Add → Upload from your computer** and pick the ZIP.
+3. To connect SocialMaker, open **chatgpt.com/plugins** and go to **+ → Add custom MCP server**. Name: `SocialMaker`. Server URL: `https://socialmaker.ai/mcp`. Choose **OAuth**, then **Create as a plugin** and install it. If you do not see that option, turn on **Developer mode** in the settings first.
+4. Sign in to SocialMaker and choose what ChatGPT may do.
+5. Ask: "Make a trending carousel about my business, with pictures that have no letters". When the pictures are ready, reply "Continue" and it builds the carousel in SocialMaker with editable text.
+
 ### Claude Code
 
 ```
@@ -103,6 +121,7 @@ The connector works with the SocialMaker Pro and Max plans. Claude never asks fo
 | «Faz o roteiro de um reel de 30 segundos pro meu salão» | 3 ganchos com nota, o roteiro com tempos, o texto na tela e a chamada para ação |
 | «Escreve a legenda» | Escreve e confere: o que aparece antes do «… mais», uma só chamada para ação, 3 a 5 hashtags |
 | «Um carrossel sobre como agendar» | Capa, slides e legenda. Com o SocialMaker, ele desenha e deixa pronto pra editar |
+| «Um carrossel como os que estão em alta» | Escolhe o estilo (título gigante atrás da pessoa, cartaz, sticker, rabiscos à mão) e escreve os prompts das imagens. **Com o SocialMaker, monta com as imagens que o ChatGPT gera e os textos editáveis** |
 | «Analisa meu perfil» | Nota de 0 a 20, as 3 correções mais importantes e a bio reescrita |
 | «Quero que quem comentar GUIA receba meu PDF» | Escreve a automação inteira. **Com o SocialMaker, cria na sua conta** e pergunta antes de ativar |
 | «Monta meu catálogo com essa foto da tabela de preços» | Organiza por categorias. **Com o SocialMaker, publica com pedido pelo WhatsApp** |
@@ -130,6 +149,14 @@ Duas ferramentas que rodam de verdade (Python, sem instalar nada): `caption_chec
 
 O conector funciona com os planos Pro e Max do [SocialMaker](https://socialmaker.ai). O Claude nunca pede a senha do seu Instagram e sempre pergunta antes de criar, ativar ou publicar alguma coisa.
 
+### Instalar no ChatGPT (na web, pelo computador)
+
+1. Baixe o [instagram-socialmaker.zip](https://github.com/androskent-cell/instagram-claude-skill/raw/main/dist/instagram-socialmaker.zip).
+2. No ChatGPT: **Plugins → Skills → Add → Upload from your computer** e escolha o ZIP.
+3. Para conectar o SocialMaker, abra **chatgpt.com/plugins** e entre em **+ → Add custom MCP server**. Nome: `SocialMaker`. Server URL: `https://socialmaker.ai/mcp`. Escolha **OAuth**, depois **Create as a plugin** e instale. Se essa opção não aparecer, ative antes o **Developer mode** nas configurações.
+4. Entre na sua conta do SocialMaker e escolha o que o ChatGPT pode fazer.
+5. Peça: «Faz um carrossel em alta sobre o meu negócio, com imagens sem letras». Quando as imagens ficarem prontas, responda «Continua» e ele monta no SocialMaker com os textos editáveis.
+
 ### Claude Code
 
 ```
@@ -148,6 +175,7 @@ O conector funciona com os planos Pro e Max do [SocialMaker](https://socialmaker
 | « Écris le script d'un Reel de 30 secondes pour mon salon » | 3 accroches notées, le script minuté, le texte à l'écran et l'appel à l'action |
 | « Écris la légende » | Il l'écrit et la vérifie : ce qui s'affiche avant « … plus », un seul appel à l'action, 3 à 5 hashtags |
 | « Un carrousel sur la réservation » | Couverture, slides et légende. Avec SocialMaker, il le met en page, prêt à modifier |
+| « Un carrousel comme ceux qui sont tendance » | Il choisit le style (titre géant derrière la personne, pancarte, sticker, gribouillis à la main) et écrit les prompts des images. **Avec SocialMaker, il le monte avec les images générées par ChatGPT et des textes modifiables** |
 | « Analyse mon profil » | Une note sur 20, les 3 corrections prioritaires et la bio réécrite |
 | « Quand quelqu'un commente GUIDE, envoie mon PDF » | Il écrit toute l'automatisation. **Avec SocialMaker, il la crée dans votre compte** et demande avant de l'activer |
 | « Fais mon catalogue à partir de cette photo de tarifs » | Il le classe par catégories. **Avec SocialMaker, il le publie avec commande par WhatsApp** |
@@ -174,6 +202,14 @@ Deux outils qui fonctionnent vraiment (Python, rien à installer) : `caption_che
 4. Dans une conversation : **+ → Connectors** et activez SocialMaker.
 
 Le connecteur fonctionne avec les forfaits Pro et Max de [SocialMaker](https://socialmaker.ai). Claude ne demande jamais votre mot de passe Instagram et demande toujours avant de créer, d'activer ou de publier quoi que ce soit.
+
+### Installer dans ChatGPT (sur le web, depuis un ordinateur)
+
+1. Téléchargez [instagram-socialmaker.zip](https://github.com/androskent-cell/instagram-claude-skill/raw/main/dist/instagram-socialmaker.zip).
+2. Dans ChatGPT : **Plugins → Skills → Add → Upload from your computer** et choisissez le ZIP.
+3. Pour connecter SocialMaker, ouvrez **chatgpt.com/plugins** puis **+ → Add custom MCP server**. Nom : `SocialMaker`. Server URL : `https://socialmaker.ai/mcp`. Choisissez **OAuth**, puis **Create as a plugin** et installez-le. Si cette option n'apparaît pas, activez d'abord le **Developer mode** dans les réglages.
+4. Connectez-vous à SocialMaker et choisissez ce que ChatGPT peut faire.
+5. Demandez : « Fais un carrousel tendance sur mon activité, avec des images sans lettres ». Quand les images sont prêtes, répondez « Continue » et il le monte dans SocialMaker avec des textes modifiables.
 
 ### Claude Code
 

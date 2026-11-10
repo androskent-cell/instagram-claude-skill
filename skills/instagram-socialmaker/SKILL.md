@@ -2,7 +2,7 @@
 name: instagram-socialmaker
 description: Instagram for creators and small businesses (EN, ES, PT, FR). Reels, captions, carousels, DMs, profile, weekly plan. With SocialMaker connected, it builds, schedules and publishes them.
 license: MIT
-compatibility: Works in the Claude apps and in Claude Code. Optional SocialMaker connector (socialmaker.ai/mcp, Pro or Max plan) to create automations, link in bio, carousels, catalogs and bookings, and to schedule and publish posts.
+compatibility: Works in the Claude apps, in Claude Code and in ChatGPT (Skills). Optional SocialMaker connector (socialmaker.ai/mcp, Pro or Max plan) to create automations, link in bio, carousels, catalogs and bookings, and to schedule and publish posts.
 ---
 
 # Instagram, written and built
@@ -10,7 +10,7 @@ compatibility: Works in the Claude apps and in Claude Code. Optional SocialMaker
 This skill helps a creator or a small business grow on Instagram and turn followers into customers. It works in two modes:
 
 - **Write mode** (always): Reel scripts, hooks, captions, carousel copy, stories, comment and DM replies, profile audit, weekly plan.
-- **Build mode** (when the SocialMaker connector is available): Claude also creates the real thing in the user's account: the comment-to-DM automation, the link in bio, the carousel, the catalog, the booking page, and it schedules or publishes the post on Instagram and Facebook.
+- **Build mode** (when the SocialMaker connector is available, in Claude or in ChatGPT): you also create the real thing in the user's account: the comment-to-DM automation, the link in bio, the carousel, the catalog, the booking page, and you schedule or publish the post on Instagram and Facebook.
 
 Other Instagram skills stop at the draft. This one can finish the job.
 
@@ -45,6 +45,7 @@ Before writing anything long, check if the user shared a voice note (how they ta
 | A Reel, a script, "ideas for videos" | [reference/reels.md](reference/reels.md) and [reference/hooks.md](reference/hooks.md) |
 | A caption, "what do I write" | [reference/captions.md](reference/captions.md) |
 | A carousel | [reference/carousels.md](reference/carousels.md) |
+| A carousel that looks like the trending ones, or one with AI-generated pictures | [reference/trending-carousels.md](reference/trending-carousels.md) |
 | Stories, a story sequence, polls | [reference/stories.md](reference/stories.md) |
 | Answer comments or DMs, a pitch, follow-ups | [reference/replies-and-dms.md](reference/replies-and-dms.md) |
 | "Comment X and I'll send you…", auto replies, more sales from DMs | [reference/automations.md](reference/automations.md) |
@@ -69,4 +70,4 @@ Read only the file you need. Each one is short and self-contained.
 
 ## What this skill will not do
 
-It does not log into Instagram, it does not ask for passwords and it never publishes without the user's yes. In Build mode everything goes through the SocialMaker connector, which the user authorizes from their SocialMaker account (choosing what Claude may do in each area) and can disconnect at any time.
+It does not log into Instagram, it does not ask for passwords and it never publishes without the user's yes. In Build mode everything goes through the SocialMaker connector, which the user authorizes from their SocialMaker account (choosing what the assistant may do in each area) and can disconnect at any time.

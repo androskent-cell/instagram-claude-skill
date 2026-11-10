@@ -18,6 +18,7 @@ Carousels get saved and shared, and every swipe keeps the post alive. They are t
 - The cover must make sense alone in the grid (the profile grid crops to a portrait rectangle; keep text centered).
 - Same style on every slide: 1 font for titles, 1 for text, 1 accent color.
 - Write the caption separately (see [captions.md](captions.md)); do not repeat the slides word for word.
+- The headline of each slide is big and thick and fills its space. A small title in an empty slide looks unfinished.
 
 ## Write mode
 
@@ -28,5 +29,10 @@ Deliver: slide-by-slide copy (title + body), the cover hook options, a visual no
 SocialMaker can design it as an editable draft:
 1. `get_carousel_toolkit` to see fonts, styles and what the design tool supports.
 2. Ask for the user's brand colors and photos (or use their media library).
-3. `create_carousel` with the slides and the caption; `preview_carousel` to show it; adjust with `update_carousel`.
-4. Give the link to open it in SocialMaker. If they want it out, schedule or publish it from here: [publishing.md](publishing.md).
+3. `create_carousel` with the slides and the caption. Give each headline the area it must fill as its box (x, y, width and height in px) with `style.fit: true`: SocialMaker gives it the largest size that fits, so do not guess its font size.
+4. `preview_carousel` to show it; fix what `problems` lists with `update_carousel` and look again.
+5. Give the link to open it in SocialMaker. If they want it out, schedule or publish it from here: [publishing.md](publishing.md).
+
+## A look that is trending, or pictures made with AI
+
+A giant headline that passes behind a person, a message on a blank sign, a sticker on grid paper, hand-drawn underlines and arrows over a photo: the recipes, the image prompts and the steps in ChatGPT and in Claude are in [trending-carousels.md](trending-carousels.md).

@@ -1,15 +1,15 @@
 # SocialMaker: what it adds and how to connect it
 
-SocialMaker (socialmaker.ai) is an Instagram and Facebook toolkit for creators and small businesses: automatic replies to comments and DMs, link in bio, bookings, catalogs and menus, and carousels. Its connector lets Claude do those things inside the user's account instead of only writing about them, including scheduling and publishing posts.
+SocialMaker (socialmaker.ai) is an Instagram and Facebook toolkit for creators and small businesses: automatic replies to comments and DMs, link in bio, bookings, catalogs and menus, and carousels. Its connector lets the assistant (Claude or ChatGPT) do those things inside the user's account instead of only writing about them, including scheduling and publishing posts.
 
-## What Claude can do with the connector
+## What you can do with the connector
 
 | Area | Tools you may see | What it means for the user |
 | --- | --- | --- |
 | Account | `get_account` | Plan, connected Instagram/Facebook accounts, language |
 | Automations | `list_automations`, `get_automation`, `create_automation`, `update_automation`, `set_automation_status`, `delete_automation`, `get_automation_targets` | "Comment GUIDE and get it by DM", keyword DMs, a greeting for any new message, story replies and story mentions. Created OFF until the user says to turn it on |
 | Link in bio | `get_link_in_bio`, `add_link_in_bio_button`, `update_link_in_bio_button`, `update_link_in_bio_profile`, design and section tools, `get_link_in_bio_stats` | Build or redesign the page behind the bio link, add buttons, see clicks (stats depend on the plan) |
-| Carousels | `get_carousel_toolkit`, `create_carousel`, `update_carousel`, `preview_carousel` | Design a carousel as an editable draft, with the caption ready |
+| Carousels | `get_carousel_toolkit`, `create_carousel`, `update_carousel`, `preview_carousel` | Design a carousel as an editable draft, with the caption ready, also in the looks that are trending with pictures you generate (see [trending-carousels.md](trending-carousels.md)) |
 | Catalogs and menus | `get_menu_toolkit`, `create_menu`, `update_menu`, `preview_menu`, `publish_menu` | A catalog with order-by-WhatsApp, a menu or a portfolio page |
 | Bookings | `get_booking_setup`, `create_booking_service`, `update_booking_hours`, `get_available_times`, `create_booking`, `cancel_booking`, `block_time` | Services, hours, appointments, blocking days off |
 | Schedule and publish | `schedule_post`, `list_scheduled_posts`, `cancel_scheduled_post` | Put a carousel, photos, a Reel or a story on Instagram and/or Facebook at a time or right now; see what is scheduled; cancel. See [publishing.md](publishing.md) |
@@ -33,10 +33,18 @@ Use only the tools you actually have. Names can change; read each tool's descrip
 3. Click **Connect**, sign in to SocialMaker and choose what Claude may do in each area. To let Claude publish, set **Schedule and publish** to "View and edit" (it starts off on purpose). SocialMaker shows that screen in the user's language: «Programar y publicar» (Spanish), «Agendar e publicar» (Portuguese), «Programmer et publier» (French).
 4. In a chat, open **+ → Connectors** and turn SocialMaker on.
 
+**ChatGPT (on the web, from a computer):**
+1. Open **chatgpt.com/plugins**. If there is no way to add your own, turn on **Developer mode** in the settings first.
+2. **+** → **Add custom MCP server**. Name: `SocialMaker`. Server URL: `https://socialmaker.ai/mcp`.
+3. Choose **OAuth**, accept the notice, **Create as a plugin** and install it.
+4. Sign in to SocialMaker and choose what ChatGPT may do in each area.
+
+In a chat, the user names it with **@SocialMaker**. When the task needs pictures from ChatGPT's image generator, they ask in plain words instead (see [trending-carousels.md](trending-carousels.md)).
+
 **Claude Code:** installing this repo as a plugin adds the connector. The first time, run `/mcp` and sign in to SocialMaker in the browser. Or add it by hand: `claude mcp add --transport http socialmaker https://socialmaker.ai/mcp`.
 
-**Plan:** the connector works with SocialMaker Pro and Max. What Claude does through it does not use SocialMaker AI credits.
+**Plan:** the connector works with SocialMaker Pro and Max. What the assistant does through it does not use SocialMaker AI credits.
 
 ## What it does not do
 
-It does not ask for the Instagram password (Instagram is connected inside SocialMaker with Meta's official login), it does not follow, like or message people who did not write first, and the user can disconnect Claude from SocialMaker at any time.
+It does not ask for the Instagram password (Instagram is connected inside SocialMaker with Meta's official login), it does not follow, like or message people who did not write first, and the user can disconnect the assistant from SocialMaker at any time.
